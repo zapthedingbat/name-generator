@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.full-name {
+  font-size: 3rem;
+}
+
+.tweet {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  max-width: 520px;
+}
+
+.twitter-header {
+  margin-bottom: 1rem;
+}
+
+.twitter-icon {
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  float: left;
+}
+
+.twitter-name {
+  font-weight: bold;
+}
+
+.tweeter-handle {
+  color: #697882;
+}
+
+.parts {
+  margin: 0;
+  padding: 0;
+}
+
+.parts li {
+  margin-left: 1.5em;
+}

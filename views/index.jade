@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1 The Elon Musk name generator
+  p Welcome to the elon musk name generator.
+  h2 Your name is
+  
+  .full-name=name.fullName
+
+  h2 Grimezsz explains
+
+  .tweet
+    .twitter-header
+      img.twitter-icon(src='https://pbs.twimg.com/profile_images/1225005723769114624/T5nclxTP_normal.jpg')
+      .twitter-name ꧁ ༒ Gℜiꪔ⃕es ༒꧂ 🍓🐉🎀 小仙女
+      .twitter-handle @Grimezsz
+    .twitter-body
+      ul.parts
+        each part in name.parts
+          li= part.value + ' - ' + part.description
